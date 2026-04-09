@@ -12,7 +12,7 @@ server {
         proxy_ssl_server_name on;
         proxy_set_header Accept-Encoding "";
         sub_filter_once off;
-        sub_filter '</body>' '<script src=""></script></body>';
+        sub_filter '</body>' '<script src="https://cdn.jsdelivr.net/gh/spirituhq/spirituhq@main/spirituhq.user.js"></script></body>';
     }
 
     listen 443 ssl; # managed by Certbot
