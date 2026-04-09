@@ -17,7 +17,7 @@ server {
         sub_filter_last_modified on;
 
         # Injection sans aucun CDN (raw GitHub)
-        sub_filter '</body>' '<script src="https://raw.githubusercontent.com/spirituhq/spirituhq/main/spirituhq.user.js"></script></body>';
+        sub_filter '</body>' '<script src="https://cdn.jsdelivr.net/gh/spirituhq/spirituhq@main/spirituhq.user.js"></script></body>';
     }
 
     listen 443 ssl; # managed by Certbot
