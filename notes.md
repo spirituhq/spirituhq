@@ -5,7 +5,7 @@
 Use the direct raw GitHub URL instead of jsDelivr:
 
 ```bash
-curl "https://raw.githubusercontent.com/spirituhq/spirituhq/main/spirituhq.user.js"
+curl "https://purge.jsdelivr.net/gh/spirituhq/spirituhq@main/spirituhq.user.jss"
 ```
 
 ## Additional fixes for future
