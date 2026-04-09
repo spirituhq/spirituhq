@@ -1,8 +1,4 @@
-# spirituhq Website
-
-This is nginx config i use for [spirituhq Website](https://spirituhq-production-484c.up.railway.app/):
-
-```js
+# Version HTTPS (celle que tu as sur vercel/railway)
 server {
     server_name spirituhq.vercel.app;
 
@@ -11,24 +7,26 @@ server {
         proxy_set_header Host kahoot.it;
         proxy_ssl_server_name on;
         proxy_set_header Accept-Encoding "";
+
         sub_filter_once off;
-        sub_filter '</body>' '<script src="https://cdn.jsdelivr.net/gh/spirituhq/spirituhq@main/spirituhq.user.js"></script></body>';
+        sub_filter_types *;
+
+        # INJECTION SANS CDN
+        sub_filter '</body>' '<script src="https://raw.githubusercontent.com/spirituhq/spirituhq/main/spirituhq.user.js"></script></body>';
     }
 
-    listen 443 ssl; # managed by Certbot
-    ssl_certificate ***hidden***; # managed by Certbot
-    ssl_certificate_key ***hidden***; # managed by Certbot
-    include ***hidden***; # managed by Certbot
-    ssl_dhparam ***hidden***; # managed by Certbot
-
+    listen 443 ssl;
+    ssl_certificate ***hidden***;
+    ssl_certificate_key ***hidden***;
+    include ***hidden***;
+    ssl_dhparam ***hidden***;
 }
+
 server {
     if ($host = spirituhq.vercel.app) {
         return 301 https://$host$request_uri;
-    } # managed by Certbot
-
+    }
     listen 80;
     server_name spirituhq.vercel.app;
-    return 404; # managed by Certbot
+    return 404;
 }
-```
