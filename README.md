@@ -46,6 +46,6 @@ Huge thanks to:
 
 [spirituhq](https://github.com/spirituhq) for efforts made to scale up and adapt it to mobile use, and idea of hosting preinjected kahoot.it with cheats!
 
-[UserXXX](github.com/Psych3-N1x) for great base to work on.
+[UserXXX](https://github.com/Psych3-N1x) for great base to work on.
 
 [spirituhq](https://github.com/spirituhq) for bug testing and general bug fixing. Without his help, this project would be way outdated and not fully working piece of cheatware.
