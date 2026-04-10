@@ -5,7 +5,7 @@ This is a Kahoot cheat made for browsers and Tampermonkey.
 
 ## Instructions (Website)
 
-1. Go to [this website](https://spirituhq-production-484c.up.railway.app/) and use!
+1. Go to [this website](https://spirituhq-production-c35e.up.railway.app/) and use!
 
 > Nginx configuration I used for this website is available under [nginx-config.md](https://github.com/spirituhq/spirituhq/blob/main/nginx-config.md) file.
 
