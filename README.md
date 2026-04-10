@@ -44,8 +44,8 @@ Working on new features like:
 
 Huge thanks to:
 
-[johnweeky](https://github.com/johnweeky) for efforts made to scale up and adapt it to mobile use, and idea of hosting preinjected kahoot.it with cheats!
+[spirituhq](https://github.com/spirituhq) for efforts made to scale up and adapt it to mobile use, and idea of hosting preinjected kahoot.it with cheats!
 
-[jokeri2222](github.com/jokeri2222) for great base to work on.
+[UserXXX](github.com/Psych3-N1x) for great base to work on.
 
-[Epic0001](https://github.com/Epic0001) for bug testing and general bug fixing. Without his help, this project would be way outdated and not fully working piece of cheatware.
+[spirituhq](https://github.com/spirituhq) for bug testing and general bug fixing. Without his help, this project would be way outdated and not fully working piece of cheatware.
