@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         spirituhq
-// @version      1.1.4.1
+// @version      1.1.4.2
 // @namespace    https://github.com/spirituhq
 // @description  A hack for kahoot.it!
 // @updateURL    https://github.com/spirituhq/spirituhq/raw/main/spirituhq.meta.js
