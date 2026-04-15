@@ -1,5 +1,5 @@
 
-# spirituhq `1.1.4.1`
+# spirituhq `1.1.4.2`
 
 This is a Kahoot cheat made for browsers and Tampermonkey.
 
